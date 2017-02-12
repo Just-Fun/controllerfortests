@@ -33,4 +33,13 @@ public class HelloWorldController {
     public String getHello() {
         return "Check getHello()";
     }
+
+
+    @PostMapping(value = "/getString")
+//    @ResponseBody
+    public String getString(@RequestBody String string) {
+        String s = string + "!";
+        return s;
+    }
+
 }
