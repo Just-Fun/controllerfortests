@@ -1,10 +1,11 @@
-package hello;
+package hello.controller;
 
-import java.util.concurrent.atomic.AtomicLong;
-
+import hello.Greeting;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.concurrent.atomic.AtomicLong;
 
 @Controller
 @RequestMapping("/hello-world")
