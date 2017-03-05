@@ -8,7 +8,7 @@ import static java.time.LocalDate.parse;
 
 public class LocalDateISO8601Adapter extends XmlAdapter<String, LocalDate> {
 
-    private static final String ISO_8601_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSZZ";
+    private static final String ISO_8601_DATE_FORMAT = "yyyy-MM-dd";
 	private DateTimeFormatter formatter;
 
 	public LocalDateISO8601Adapter() {
