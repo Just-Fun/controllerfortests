@@ -25,4 +25,9 @@ public class DateISO8601Adapter extends XmlAdapter<String, Date> {
 		return dateFormat.format(v);
 	}
 
+	/* insertion date in the database */
+//	@XmlElement(name = "insertionDate")
+//	@XmlJavaTypeAdapter(DateISO8601Adapter.class)
+//	private Date insertionDate;
+
 }
